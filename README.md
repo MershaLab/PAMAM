@@ -16,8 +16,10 @@ Usages of three-way analysis can be found [here](https://github.com/MershaLab/PA
 
 ## Contributor
 Yadu Gautam, PhD
-Research Fellow
-Asthma Division, Cincinnati Childrens's Medical Hospital, Cincinnati
+
+Research Fellow, Asthma Division
+
+Cincinnati Childrens's Medical Hospital, Cincinnati
 ## License
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3. See [LICENSE](https://github.com/MershaLab/PAMAM/edit/master/LICENSE) for more details.
 ## Contact
