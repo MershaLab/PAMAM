@@ -15,6 +15,6 @@ Usages of two-way analysis can be found at https://github.com/MershaLab/PAMAM/bl
 Usages of three-way analysis can be found at https://github.com/MershaLab/PAMAM/blob/master/Three-way%20usages.docx.
 
 # Contributor
-Dr. Yadu Gautam, Research Fellow, Cincinnati Childrens's Medical Hospital, Asthma Division
+Dr. Yadu Gautam, Research Fellow, Asthma Division, Cincinnati Childrens's Medical Hospital, Cincinnati
 
 
