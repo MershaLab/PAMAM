@@ -10,9 +10,9 @@ source('~/PAMAM code two way.R')
 
 source('~/PAMAM code three way.R')
 
-Usages of two-way analysis can be found at https://github.com/MershaLab/PAMAM/blob/master/Three-way%20usages.docx. For details and examples, please check the supplemental file for our AdmixPower article in Genetics, http://www.genetics.org/content/207/3/873.supplemental 
+Usages of two-way analysis can be found [here](https://github.com/MershaLab/PAMAM/blob/master/Three-way%20usages.docx). For details and examples, please check the [supplemental file](http://www.genetics.org/content/207/3/873.supplemental) for our AdmixPower article in Genetics,  
 
-Usages of three-way analysis can be found at https://github.com/MershaLab/PAMAM/blob/master/Three-way%20usages.docx.
+Usages of three-way analysis can be found [here](https://github.com/MershaLab/PAMAM/blob/master/Three-way%20usages.docx).
 
 # Contributor
 Dr. Yadu Gautam, Research Fellow, Asthma Division, Cincinnati Childrens's Medical Hospital, Cincinnati
