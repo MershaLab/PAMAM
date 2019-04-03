@@ -6,9 +6,9 @@ The R codes provided here are free to download, use, and distribution for non-co
 
 For power and sample size analysis, download the R files and load to the R environemnt.
 
-source('~/PAMAM code two way.R')
+          source('~/AMPower_2way.R')
 
-source('~/PAMAM code three way.R')
+          source('~/AMPower_3way.R')
 
 Usages of two-way analysis can be found [here](https://github.com/MershaLab/PAMAM/blob/master/Three-way%20usages.docx). For details and examples, please check the [supplemental file](http://www.genetics.org/content/207/3/873.supplemental) of our AdmixPower article in Genetics.  
 
