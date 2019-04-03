@@ -135,8 +135,8 @@ SampleCC3way <- function(null_prop, risk_freq, grr,
 #### Key parameters #########
 ### nullR2 = R-square under null model
 ### alternateR2 = R-square under alternate model
-### u = Numerator degree of freedom = # of ancestral populations - 1
-### n_covariates = # of covariates used
+### anc = # of ancestral populations
+### covariates = # of covariates used
 ### alpha = Type I error rate
 ### power = 1 - Type II error rate
 ### N = Sample size
@@ -144,9 +144,10 @@ SampleCC3way <- function(null_prop, risk_freq, grr,
 
 ####### Power Calculation #########
 
-PowerQTrait3way <- function(nullR2, alternateR2, u, alpha, N, n_covariates){
+PowerQTrait3way <- function(nullR2, alternateR2, anc, alpha, N, covariates){
   effectsize <- (alternateR2 - nullR2)/(1-alternateR2)
-  v <- N - u - n_covariates - 1
+  u <- anc -1
+  v <- N - u - covariates - 1
   f_critical <- qf(p = alpha, ncp = 0, df1 = u, df2 = v, lower.tail = F)
   non_central <- effectsize*(u + v + 1)
   powerF <- pf(f_critical, ncp = non_central, df1 = u, df2 = v, lower.tail = F)
@@ -156,14 +157,15 @@ PowerQTrait3way <- function(nullR2, alternateR2, u, alpha, N, n_covariates){
 
 ################# Sample Size Calculation ###############
 
-SampleQTrait3way <- function(nullR2, alternateR2, u, alpha, power, n_covariates){
+SampleQTrait3way <- function(nullR2, alternateR2, anc, alpha, power, covariates){
   effectsize <- (alternateR2 - nullR2)/(1-alternateR2)
   type2 <- 1-power
+  u <- anc -1
   f_critical <- function(x) qf(p = alpha, ncp = 0, df1 = u, df2 = x, lower.tail = F)
   deno_df <- function(x) pf(f_critical(x), ncp = effectsize*(u + x +1), df1 = u, df2 = x, lower.tail = T) - type2
   if(deno_df(1e7) > 0) v <- 1e7 else
     if(deno_df(1e7) < 0) v <- uniroot(deno_df, c(1,1e7))$root
-  samplesize <- ceiling(v + u + n_covariates + 1)
+  samplesize <- ceiling(v + u + covariates + 1)
  return(samplesize)
 }
 
