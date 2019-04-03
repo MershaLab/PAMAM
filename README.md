@@ -7,4 +7,5 @@ The R codes provided here are free to download, use, and distribution for non-co
 For power and sample size analysis, download the R files and load to the R environemnt.
 
 source('~/PAMAM code two way.R')
+
 source('~/PAMAM code three way.R')
