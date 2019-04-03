@@ -1,9 +1,5 @@
 
 ## PAMAM power analysis R code for two-way admixture mapping ##
-## The codes are based on the following manuscript - 
-### Gautam et al. (2017), AdmixPower: Statistical power and sample size ###
-######  estimation for mapping genetic loci in admixed populations.########
-################## Genetics,vol. 207 no. 3 873-882. ####################### 
 
 ####################### Two-way admixture analysis #########################
 ##
