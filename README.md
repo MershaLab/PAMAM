@@ -10,8 +10,8 @@ source('~/PAMAM code two way.R')
 
 source('~/PAMAM code three way.R')
 
-Examples of two-way analysis can be found in the supplemental file for our AdmixPower article in Genetics, http://www.genetics.org/content/207/3/873.supplemental 
+Usages of two-way analysis can be found here. For details and examples, please check the supplemental file for our AdmixPower article in Genetics, http://www.genetics.org/content/207/3/873.supplemental 
 
-Examples of three-way analysis can be found here.
+Usages of three-way analysis can be found here.
 
 
