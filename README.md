@@ -17,7 +17,7 @@ Usages of three-way analysis can be found [here](https://github.com/MershaLab/PA
 ## Contributor
 Yadu Gautam, PhD
 
-Research Fellow, Asthma Division
+Research Associate, Asthma Division
 
 Cincinnati Childrens's Medical Hospital, Cincinnati
 ## License
